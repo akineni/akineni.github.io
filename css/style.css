@@ -1,0 +1,79 @@
+:root {
+    --primary-font-family: 'Karla', sans-serif;
+    --secondary-font-family: 'Montserrat', sans-serif;
+}
+html, body { font-family: var(--primary-font-family) }
+
+.card-text { font-weight: 300; font-family: var(--secondary-font-family); }
+
+.card-title { font-weight: 600 }
+
+nav.navbar { font-size: large }
+
+.carousel { min-height: calc(100vh - 60px) }
+
+.hero-bold-text { font-family: 'SF UI Text Heavy' }
+
+h2.section-title { font-family: 'SF UI Text Bold' }
+
+.hero-action.animate__animated { animation-delay: .5s }
+
+#projects .card:hover {
+    animation: .8s pulse;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#projects .card { box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px }
+
+.contact-action {
+    background-color: var(--bs-dark);
+    position: relative;
+    top: -50%;
+    margin: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.var-highlight{
+    color: #C0AD60;
+  }
+  .string-highlight{
+    color: rgba(253, 149, 90, 0.8);
+  }
+  
+  #typewriter{
+      font-family: monospace "Courier New";
+    white-space: break-spaces;
+  }
+  
+      #typewriter:after{
+        content: "|";
+        animation: blink 500ms linear infinite alternate;
+      }
+  
+  @-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
